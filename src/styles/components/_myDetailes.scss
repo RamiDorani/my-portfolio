@@ -1,25 +1,31 @@
 .my-detailes-wrapper {
-    // background-image: url('../../imgs/programmer.png');
-    background-size: cover;
     border: 1px solid black;
+    max-width: rem(1000px);
+}
+
+.up {
+}
+
+.my-headers {
+   background-color: aquamarine;
+   width: 20%;
+   margin: 0 auto;
+   font-size: rem(35px);
 }
 
 
-// .my-detailes {
-//     max-width: 400px;
-//     margin-left: -19px;
-//     // border: 1px solid black;
-//     font-size: rem(15px);
-//     color: #3d3d3d;
-//     p {
-//         font-size: rem(10px);
-//     }
-// }
+@media (max-width:800px) {
+    // .container {
+    //     max-width: 600px;
+    // }
 
-.my-pic{
-    border: 1px solid black;
-    width: rem(150px);
-    height: rem(250px);
-
+    .my-headers {
+        width: 40%;
+        font-size: rem(24px);
+    }
 }
+
+
+
+
 

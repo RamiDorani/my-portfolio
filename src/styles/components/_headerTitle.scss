@@ -26,6 +26,15 @@
   }
 
 
+
+  @media (max-width:800px) {
+    .name-introduction{
+      font-size: rem(30px);
+    }
+    .paragraph {
+      font-size: rem(20px);
+    }
+  }
   
 
  

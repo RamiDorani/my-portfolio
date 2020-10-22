@@ -5,7 +5,7 @@ export class MyDetailes extends Component {
     render() {
         return (
                 <section className="my-detailes-wrapper container" id="about">
-                    <div className="up">
+                    <div className="up flex-col">
                     <h2 className="my-headers about-me-header">About Me</h2>
                     <p className="p about-me-p">Fullstack / Frontend Web Developer and I'm also a student for software engineering at shenkar collage and I am about to start my final year of my studies. I have knowledge and experience in writing end-2-end single-page-aplication using the LATEST web technologies such as React.js, Node.js, Redux and more.</p>
                     </div>
