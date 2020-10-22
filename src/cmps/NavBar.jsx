@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import { NavLink } from 'react-router-dom'
+
 
  export class NavBar extends Component {
 
@@ -11,8 +11,8 @@ import { NavLink } from 'react-router-dom'
 
     render() {
         return (
-            <div>
-                <div className="screen" onclick="toggleMenu()"></div>
+            <div className="container">
+                <div className="screen" onClick={this.toggleMenu}></div>
                 <nav>
                     <ul className="main-nav clean-list flex">
                     <li><a href="#">HOME</a></li>

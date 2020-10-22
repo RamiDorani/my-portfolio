@@ -40,31 +40,75 @@
 
 
 @media (max-width:800px) {
+    // .main-nav {
+    //     flex-direction: column;
+    //     justify-content: flex-start;
+    //     align-items: flex-end;
+    //     position: fixed;
+    //     top: 0;
+    //     right: -100px;
+    //     height: 100vh;
+    //     width: 180px;
+    //     background-color: #292929;
+    //     opacity: 0.9;
+    //     z-index: 2;
+    //     transform: translateX(0%);
+    //     transition: transform 0.8s;
+    //   }
+    //   .main-nav>* {
+    //     margin-top: 10px;
+    //   }
+    //   .mobile-menu {
+    //     display: inline-block;
+    //     color: blanchedalmond;
+    //     cursor: pointer;
+    //      position: fixed;
+    //   }
+    //   body.menu-open .main-nav {
+    //     transform: translateX(-100%);
+    //   }
+
+    .container {
+      max-width: 700px;
+    }
+
     .main-nav {
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-end;
-        position: fixed;
-        top: 0;
-        right: -150px;
-        height: 100vh;
-        width: 180px;
-        background-color: #292929;
-        opacity: 0.9;
-        z-index: 2;
-        transform: translateX(0%);
-        transition: transform 0.8s;
-      }
-      .main-nav>* {
-        margin-top: 10px;
-      }
-      .mobile-menu {
+      flex-direction: column;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 300px;
+      transform: translateX(100%);
+      border-left: solid 1px #ccc;
+      transition: transform .8s, box-shadow .8s;
+  }
+
+  .main-nav li:not(:first-child) {
+      margin-inline-start: 0;
+  }
+  .mobile-menu {
         display: inline-block;
         color: blanchedalmond;
         cursor: pointer;
          position: fixed;
-      }
-      body.menu-open .main-nav {
-        transform: translateX(-100%);
-      }
+        }
+
+  .main-nav li a {
+      display: flex;
+      width: 200px;
+      height: 50px;
+      align-items: center;
+      border-bottom: 1px solid #dcdcdc;
+      padding: 0 20px;
+      font-size: 1rem;
+      transition: background-color .3s;
+  }
+
+  
+
+  body.menu-open .main-nav {
+      transform: translateX(0);
+  }
 }

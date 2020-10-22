@@ -30,6 +30,14 @@ li {
     flex-direction: column;
 }
 
+.container {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1.2rem;
+}
+
+
 ::-webkit-scrollbar {
     width: 12px;
     background-color: rgba(0, 0, 0, 0);
