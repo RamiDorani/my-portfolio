@@ -21,6 +21,7 @@ export class MyDetailes extends Component {
                     ramid1703@gmail.com <br />
                     </p>
                     </div>
+                    <hr className="buttom-line" />
                 </section>
         )
     }
