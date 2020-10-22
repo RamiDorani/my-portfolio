@@ -1,6 +1,8 @@
 .my-detailes-wrapper {
-    border: 1px solid black;
-    max-width: rem(1000px);
+    //border: 1px solid black;
+    background-color: lightyellow;
+    max-width: 100%;
+    padding-top: rem(50px);
 }
 
 .up {
@@ -8,8 +10,8 @@
 
 .my-headers {
    //background-color: aquamarine;
-   width: 20%;
-   margin: 0 auto;
+//    width: 20%;
+//    margin: 0 auto;
    font-size: rem(35px);
    font-family: comic;
 }
@@ -25,8 +27,9 @@
     //     max-width: 600px;
     // }
     .my-headers {
-        width: 40%;
-        font-size: rem(24px);
+        width: 55%;
+        font-size: rem(30px);
+        font-weight: bold;
     }
 }
 
