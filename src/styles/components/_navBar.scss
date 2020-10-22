@@ -40,35 +40,7 @@
 
 
 @media (max-width:800px) {
-    // .main-nav {
-    //     flex-direction: column;
-    //     justify-content: flex-start;
-    //     align-items: flex-end;
-    //     position: fixed;
-    //     top: 0;
-    //     right: -100px;
-    //     height: 100vh;
-    //     width: 180px;
-    //     background-color: #292929;
-    //     opacity: 0.9;
-    //     z-index: 2;
-    //     transform: translateX(0%);
-    //     transition: transform 0.8s;
-    //   }
-    //   .main-nav>* {
-    //     margin-top: 10px;
-    //   }
-    //   .mobile-menu {
-    //     display: inline-block;
-    //     color: blanchedalmond;
-    //     cursor: pointer;
-    //      position: fixed;
-    //   }
-    //   body.menu-open .main-nav {
-    //     transform: translateX(-100%);
-    //   }
-
-    .container {
+  .container {
       max-width: 700px;
     }
 
@@ -78,7 +50,7 @@
       z-index: 2;
       top: 0;
       right: 0;
-      height: 100vh;
+      height: 60vh;
       width: 300px;
       transform: translateX(100%);
       border-left: solid 1px #ccc;
