@@ -7,10 +7,16 @@
 }
 
 .my-headers {
-   background-color: aquamarine;
+   //background-color: aquamarine;
    width: 20%;
    margin: 0 auto;
    font-size: rem(35px);
+   font-family: comic;
+}
+
+.p {
+    font-family: roboto;
+    font-size: rem(24px);
 }
 
 
@@ -18,7 +24,6 @@
     // .container {
     //     max-width: 600px;
     // }
-
     .my-headers {
         width: 40%;
         font-size: rem(24px);
