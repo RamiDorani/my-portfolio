@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20f14cd66c97df59ede3911e17e08a1e",
+    "revision": "2407e06afcc6e5e9132a3938b16b9c2d",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "25004ef4b9839a8f93c3",
-    "url": "/my-portfolio/static/css/main.e9a84191.chunk.css"
+    "revision": "ea4f45d37c89ca334724",
+    "url": "/my-portfolio/static/css/main.c847dc55.chunk.css"
   },
   {
     "revision": "a004f0089bfe59dc44c2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.e2a05d9b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "25004ef4b9839a8f93c3",
-    "url": "/my-portfolio/static/js/main.57b45f34.chunk.js"
+    "revision": "ea4f45d37c89ca334724",
+    "url": "/my-portfolio/static/js/main.c64c5199.chunk.js"
   },
   {
     "revision": "f241adf7bba56ceeeb82",
@@ -52,12 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/Roboto-Regular.11eabca2.ttf"
   },
   {
-    "revision": "2a009057c5cb467151c34e381237338c",
-    "url": "/my-portfolio/static/media/angular.2a009057.svg"
-  },
-  {
-    "revision": "26f37ca60325a64210aa99d482b495f3",
-    "url": "/my-portfolio/static/media/c++.26f37ca6.svg"
+    "revision": "8c184ef94f456c0a1218a832716465f2",
+    "url": "/my-portfolio/static/media/c++.8c184ef9.png"
   },
   {
     "revision": "2c04ef7103810d2432cecd826e5ed8e1",
@@ -68,23 +64,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/media/impact.8fc622c3.ttf"
   },
   {
-    "revision": "0e48977ff49ac1b0e922f679422c20bf",
-    "url": "/my-portfolio/static/media/mongo.0e48977f.svg"
+    "revision": "b10b140c6a5e314a0eccf161c5d4f112",
+    "url": "/my-portfolio/static/media/mongo.b10b140c.png"
   },
   {
-    "revision": "04087cdedc0d7bd117ac1631f64a6604",
-    "url": "/my-portfolio/static/media/nodeJS.04087cde.svg"
-  },
-  {
-    "revision": "3c36d42971246cab462f55ca81485d73",
-    "url": "/my-portfolio/static/media/react.3c36d429.svg"
+    "revision": "c3ba82a536fe4983dad4c06b578dcd5d",
+    "url": "/my-portfolio/static/media/react.c3ba82a5.png"
   },
   {
     "revision": "071283f7160154e367fb2bf07acc5930",
     "url": "/my-portfolio/static/media/responsive-design.071283f7.png"
-  },
-  {
-    "revision": "99f5fb927dd8ab5009c52c1f8fa1270d",
-    "url": "/my-portfolio/static/media/vue.99f5fb92.svg"
   }
 ]);
