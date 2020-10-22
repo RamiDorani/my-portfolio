@@ -25,7 +25,7 @@ export class Skilles extends Component {
         console.log(skilles);
         if (!skilles) return <div>Loading...</div>
         return (
-            <div>
+            <div className="container">
                 <h1>My Skilles</h1>
                 <section className="skill-wrapper">
                     {

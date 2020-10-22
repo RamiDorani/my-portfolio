@@ -22,7 +22,7 @@ export class Project extends Component {
         const {projects} = this.state;
         if(!projects) return <div>Loading...</div>
         return (
-            <div>
+            <div className="container">
                 <h1>My Projects</h1>
                 <section>
                     {
