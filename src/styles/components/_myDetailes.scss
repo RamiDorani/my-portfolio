@@ -8,11 +8,12 @@
 
 
 .my-detailes {
+    max-width: 200px;
     border: 1px solid black;
-    font-size: rem(25px);
+    font-size: rem(15px);
     color: #3d3d3d;
     p {
-        font-size: rem(30px);
+        font-size: rem(10px);
     }
 }
 
