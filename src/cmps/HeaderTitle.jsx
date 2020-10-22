@@ -10,7 +10,7 @@ export class HeaderTitle extends Component {
                 <h1 className="name-introduction">Hi, I'm <span className="my-name">Rami Veted</span></h1>
                 <Typewriter
                     options={{
-                        strings : ["I'm a Fullstackkkkkkkkkkk / Frontend Developer"],
+                        strings : ["I'm a Fullstack / Frontend Developer"],
                         autoStart: true,
                         loop: true,
                         wrapperClassName: 'paragraph'
