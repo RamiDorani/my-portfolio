@@ -1,8 +1,9 @@
 .footer { 
-    height: rem(200px);
+    //height: rem(200px);
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: #cdcbcb;
     margin-top: rem(50px);
+    padding-bottom: rem(20px);
     display: flex;
     flex-direction: column;
     font-family: handlee;

@@ -25,13 +25,14 @@ export class Skilles extends Component {
         console.log(skilles);
         if (!skilles) return <div>Loading...</div>
         return (
-            <div id="skilles">
+            <div id="skilles" className="skilles">
                 <h1 className="title">My Skilles</h1>
                 <section className="skill-wrapper container">
                     {
                       skilles.map(skill => <SkillList key={skill._id} skill={skill} />)  
                     }
                 </section>
+                <hr className="buttom-line" />
             </div>
         )
     
