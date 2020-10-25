@@ -8,19 +8,132 @@
     grid-template-columns: repeat(auto-fill, minmax(rem(350px), 1fr));
     grid-gap: 5rem;
     font-family: comic;
-    padding-top: rem(50px);
+    //padding-top: rem(50px);
 }
 
-.skill-img {
-    max-width: rem(250px);
-    max-height: rem(150px);
-}
+// .skill-img {
+//     //max-width: 100%;
+//     max-height: rem(120px);
+// }
 
 
 
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cont .card-cont:hover .card {
+    transform: rotatey(-180deg) translatey(-20px);
+    box-shadow: 0 rem(30px) rem(30px) #ccc;
+  }
 
 
-.skill-title {
-    text-decoration: underline;
-}
+  .cont .card {
+    width: rem(300px);
+    height: rem(270px);
+    transform-style: preserve-3d;
+    position: relative;
+    transition: all 1s, box-shadow 2.5s;
+    border-radius: rem(20px);
+    box-shadow: 0 0 rem(60px) #ccc;
+    animation: fade-in-bottom 1.5s;
+    animation-fill-mode: backwards;
+  }
 
+
+  .cont .card .front {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: rem(15px);
+    background-color: white;
+    z-index: 99999;
+    overflow: hidden;
+  }
+
+
+ .front img {
+    width: 100%;
+    height: rem(180px);
+  }
+
+
+  .cont .card .front .content-cont {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    padding: rem(10px);
+    font-family: monospace;
+  }
+
+
+  .cont .card .back {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: rem(15px);
+    background-color: white;
+    transform: rotatey(180deg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: monospace;
+  }
+
+
+  .cont .card button {
+    padding: rem(10px) rem(20px);
+    background-color: #14274e;
+    color: white;
+    border: none;
+    border-radius: rem(5px);
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+  }
+
+
+  .cont .card button::after {
+    border-radius: rem(5px);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    content: "";
+    background-color: #14274e;
+    z-index: -1;
+    transition: 0.8s;
+  }
+
+
+  .cont .card button:hover {
+    background-color: #0a1325;
+  }
+
+
+  .cont .card button:hover::after {
+    transform: scale(1.5, 1.8);
+    opacity: 0;
+  }
+  
+  
+  @keyframes fade-in-bottom {
+    0% {
+      transform: translatey(rem(50px));
+    }
+    100% {
+      transform: translatey(0);
+    }
+  }
+  

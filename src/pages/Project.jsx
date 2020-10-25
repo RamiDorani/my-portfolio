@@ -22,11 +22,11 @@ export class Project extends Component {
         const {projects} = this.state;
         if(!projects) return <div>Loading...</div>
         return (
-            <div className="container projects-wrapper" id="projects">
-                <h1>My Projects</h1>
-                <section>
+            <div className="projects-wrapper" id="projects">
+                <h1 className="title">My Projects</h1>
+                <section className="container card-container flex-col">
                     {
-                        projects.map(project => <ProjectCard key={project._id} project={project} />)
+                        projects.map(project => <ProjectCard  key={project._id} project={project} />)
                     }
                 </section>
             </div>
