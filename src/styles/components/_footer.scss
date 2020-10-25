@@ -1,4 +1,33 @@
 .footer { 
+    height: rem(200px);
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     color: #cdcbcb;
+    margin-top: rem(50px);
+    display: flex;
+    flex-direction: column;
+    font-family: handlee;
 }
+
+.social-icons :not(:first-child) {
+    margin-inline-start: rem(100px);
+}
+
+.social-icons {
+    align-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: rem(20px);
+    //border: 1px solid rgb(61, 240, 16);
+}
+
+.social-icons a  {
+   font-size: rem(30px);
+}
+
+
+.copy-rights, .credits {
+    margin: 0 auto;
+    margin-top: 30px;
+    font-size: rem(20px);
+}
+

@@ -1,23 +1,22 @@
 .skill-wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(rem(350px), 1fr));
-    //grid-auto-rows: 21.5rem;
-    grid-gap: 10rem;
+    grid-gap: 5rem;
     font-family: comic;
+    padding-top: rem(50px);
 }
 
 
-.skill-card:hover {
-    //border: 1px black solid;
-    background-color: rgb(183, 233, 173);
-}
+// .skill-card:hover {
+//     //border: 1px black solid;
+//     background-color: rgb(183, 233, 173);
+// }
 
 
 
 .skill-img {
-    width: 250px;
-    height: 150px;
-    //border: 1px black solid;
+    max-width: rem(250px);
+    max-height: rem(150px);
 }
 
 
