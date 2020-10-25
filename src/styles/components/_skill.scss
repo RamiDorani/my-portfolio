@@ -11,11 +11,11 @@
 .skill-img {
     max-width: 200px;
     max-height: 200px;
+    object-fit: fill;
 }
 
 
-.node-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+
+.skill-title {
+    text-decoration: underline;
 }

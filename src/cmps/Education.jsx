@@ -4,7 +4,7 @@ export class Education extends Component {
     render() {
         return (
             <div id="education">
-                <h1 className="tit">Education</h1>
+                <h1 className="title">Education</h1>
                 <section className="container coding-academy">
                     <h2 className="ed-title">Bootcamp - Coding Academy</h2>
                     <h5 className="year-title">Full Stack / Frontend Web Developer  * October 2020</h5>
