@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export class Education extends Component {
     render() {
         return (
-            <div id="education">
+            <div id="education" className="education-wrapper">
                 <h1 className="title">Education</h1>
                 <section className="container coding-academy">
                     <h2 className="ed-title">Bootcamp - Coding Academy</h2>
