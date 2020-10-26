@@ -1,29 +1,30 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.519db00b.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.0af47d8b.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.0af47d8b.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.200f9331.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.7fa7c000.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.7fa7c000.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.8b00eace.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.8b00eace.js.map",
-    "static/js/2.8b33100a.chunk.js": "/my-portfolio/static/js/2.8b33100a.chunk.js",
-    "static/js/2.8b33100a.chunk.js.map": "/my-portfolio/static/js/2.8b33100a.chunk.js.map",
+    "static/js/2.55ae9c7d.chunk.js": "/my-portfolio/static/js/2.55ae9c7d.chunk.js",
+    "static/js/2.55ae9c7d.chunk.js.map": "/my-portfolio/static/js/2.55ae9c7d.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.824e26767a6e79fc602b6dfe1ba8bb8c.js": "/my-portfolio/precache-manifest.824e26767a6e79fc602b6dfe1ba8bb8c.js",
+    "precache-manifest.435b68f9f701d34b5c177b509a7a83c5.js": "/my-portfolio/precache-manifest.435b68f9f701d34b5c177b509a7a83c5.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.519db00b.chunk.css.map": "/my-portfolio/static/css/main.519db00b.chunk.css.map",
-    "static/js/2.8b33100a.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.8b33100a.chunk.js.LICENSE.txt",
+    "static/css/main.200f9331.chunk.css.map": "/my-portfolio/static/css/main.200f9331.chunk.css.map",
+    "static/js/2.55ae9c7d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.55ae9c7d.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/my-portfolio/static/media/impact.8fc622c3.ttf",
     "static/media/Minesweeper.png": "/my-portfolio/static/media/Minesweeper.b25d6775.png",
     "static/media/c++.png": "/my-portfolio/static/media/c++.8c184ef9.png",
     "static/media/chef.jpg": "/my-portfolio/static/media/chef.2c04ef71.jpg",
+    "static/media/cv.docx": "/my-portfolio/static/media/cv.1748573f.docx",
     "static/media/nodeJS.png": "/my-portfolio/static/media/nodeJS.d1c1e900.png",
     "static/media/react.png": "/my-portfolio/static/media/react.c3ba82a5.png",
     "static/media/responsive-design.png": "/my-portfolio/static/media/responsive-design.071283f7.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8b00eace.js",
-    "static/js/2.8b33100a.chunk.js",
-    "static/css/main.519db00b.chunk.css",
-    "static/js/main.0af47d8b.chunk.js"
+    "static/js/2.55ae9c7d.chunk.js",
+    "static/css/main.200f9331.chunk.css",
+    "static/js/main.7fa7c000.chunk.js"
   ]
 }
