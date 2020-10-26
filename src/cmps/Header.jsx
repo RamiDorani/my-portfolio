@@ -5,8 +5,13 @@ import { HeaderTitle } from './HeaderTitle'
 
 
 
+
 export class Header extends Component {
 
+    scrollDown() {
+        let pageHeight = window.innerHeight;
+        window.scrollBy(0, pageHeight);
+      }
 
     render() {
         return (
@@ -16,8 +21,13 @@ export class Header extends Component {
                 <div id='stars3'></div>
                 <NavBar></NavBar>
                 <HeaderTitle></HeaderTitle>
+                <div className="arrow" onClick={this.scrollDown}>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
-           
+
         )
     }
 }

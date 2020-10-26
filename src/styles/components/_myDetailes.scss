@@ -10,15 +10,23 @@
    font-family: comic;
 }
 
-.p {
+.contact-det,.p {
     font-family: roboto;
     font-size: rem(24px);
+}
+
+
+.li {
+    margin-top: rem(20px);
 }
 
 .down {
     margin-top: rem(40px);
 }
 
+.contact-now {
+    font-weight: bold;
+}
 
 @media (max-width:800px) {
     .container {

@@ -18,7 +18,7 @@ import React, { Component } from 'react'
                     <li><a href="#">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#projects">PROJECTS</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     </ul>
                     <span className="mobile-menu" onClick={this.toggleMenu}>☰</span>
                 </nav>
