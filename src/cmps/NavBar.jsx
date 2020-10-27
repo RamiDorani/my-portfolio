@@ -19,6 +19,7 @@ import React, { Component } from 'react'
                     <li onClick={this.toggleMenu}><a href="#about">ABOUT</a></li>
                     <li onClick={this.toggleMenu}><a href="#projects">PROJECTS</a></li>
                     <li onClick={this.toggleMenu}><a href="#contact">CONTACT</a></li>
+                    <li onClick={this.toggleMenu}><a href="#skills">SKILLS</a></li>
                     </ul>
                     <span className="mobile-menu" onClick={this.toggleMenu}>☰</span>
                 </nav>

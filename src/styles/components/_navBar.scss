@@ -61,10 +61,10 @@
       flex-direction: column;
       position: fixed;
       z-index: 2;
-      top: 10px;
+      top: rem(30px);
       right: 0px;
       height: 60vh;
-      width: 300px;
+      width: rem(300px);
       transform: translateX(100%);
       border-left: solid 1px #ccc;
       transition: transform .8s, box-shadow .8s;

@@ -24,7 +24,7 @@ export class Skilles extends Component {
         const {skilles} = this.state
         if (!skilles) return <div>Loading...</div>
         return (
-            <div id="skilles" className="skilles">
+            <div id="skills" className="skilles">
                 <h1 className="title">My Skills</h1>
                 <section className="skill-wrapper container">
                     {
